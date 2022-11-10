@@ -1,0 +1,102 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main_menu
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #2e3ed1;
+}
+
+nav
+{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:black;
+}
+
+.detail{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detail h1{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+}
+
+.detail p{
+    font-size: small;
+    color: #fff;
+    line-height: 22px;
+
+}
+
+.detail a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.gambar{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.gambar img{
+    height: 100%;
+    left: 60%;
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.dora{
+    width: 90%;
+    height: 90%;
+}
+
+.gambar:hover .shape{
+    bottom: 10%;
+}
+
+.gambar:hover .dora{
+    left: 65%;
+}

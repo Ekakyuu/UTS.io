@@ -1,0 +1,146 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background: linear-gradient(#fbd032,#eeb420);
+}
+
+.main_menu
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #cd9719;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background-color: #664b0c;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:rgba(255, 255, 255, 0.753);
+}
+
+.story_hader {
+    width: 100%;
+    height: 460px;
+}
+
+.title {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+    transition: 1s;
+}
+
+.staff {
+    width: 100%;
+    height: 400px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.fujiko h1 {
+    color: #a66100;
+}
+
+.fujiko {
+    width: 35%;
+    text-align: center;
+    background-color: #e4a91d;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+.fujiko-img{
+    width: 50%;
+    height: auto;
+    margin: 10px;
+}
+
+.yakuwa {
+    width: 35%;
+    text-align: center;
+    background-color: #e4a91d;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+.yakuwa-img{
+    width: 50%;
+    height: auto;
+    margin: 10px;
+}
+
+.yakuwa h1{
+    color: #a66100;
+}
+
+.fujiko{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+  
+.fujiko.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.yakuwa{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+  
+.yakuwa.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+footer{
+    text-align: center;
+    color: #fff;
+}
+
+.footimg{
+    height: 20%;
+    width: 20%;
+}
